@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.navbar{
+    background-image: url("Task\ Design/blue_bg.png");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    margin-bottom: 50px;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 0px 100px;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.nav-left ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-left ul li {
+    margin: 20px;
+
+}
+
+.nav-left ul a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    transition: 2px;
+}
+
+.nav-left ul a:hover{
+    text-decoration: underline #96318D solid 3px ;
+}
+
+
+.nav-left img{
+    width: 150px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    position: relative;
+}
+
+.nav-right a{
+    z-index: 1;
+}
+
+
+.nav-right .img{
+    width: 90px;
+}
+
+
+.nav-right .text{
+position: absolute;
+top: 33px;
+left: 27px;
+color: black;
+text-decoration: none;
+}
+
+.nav-right .text:hover{
+    color: rgba(55, 210, 210, 0.721);
+}
+
+
+.sell{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.div2{
+    font-family: "Varela_Round";
+    font-weight: 600;
+    font-size: 300%;
+}
+
+.div2 span span{
+    color: #96318D;
+}
+
+.div2 p{
+    font-size: 50%;
+    font-weight: normal;
+    width: 70%;
+    margin-top: 5%;
+    color: rgb(102, 101, 101);
+}
+
+
+.sell .first-img img{
+    position: absolute;
+    top: 60px;
+    left: 750px;
+    width: 680px;
+}
+
+.sell .second-img img{
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    width: 300px;
+}
+
+.sell .third-img img{
+    position: absolute;
+    top: 450px;
+    left: 865px;
+    width: 400px;
+}
+
+.sell .fourth-img img{
+    position: absolute;
+    top: 539px;
+    left: -190px;
+    width: 1290px;
+}
+
+.sec1{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line img{
+    width: 990px;
+}
+
+.line .first-img{
+    position: absolute;
+    top: 75px;
+    left: 160px;
+}
+
+.line .one{
+    width: 210px;
+}
+
+.first-img h3{
+    font-size: 22px;
+    font-weight: 330%;
+    color: rgb(102, 101, 101);
+}
+
+.first-img p{
+    font-size: 20px;
+    width: 57%;
+    color: rgb(102, 101, 101);
+    margin-top: 2%;
+    margin-left: -43px;
+}
+
+.line .second-img{
+    position: absolute;
+    top: 240px;
+    left: 650px;
+}
+
+.line .two{
+    width: 210px;
+}
+
+.second-img h3{
+    font-size: 24px;
+    font-weight: 330%;
+    color: rgb(102, 101, 101);
+}
+
+.second-img p{
+    font-size: 20px;
+    width: 62%;
+    color: rgb(102, 101, 101);
+    margin-top: 2%;
+    margin-left: -100px;
+}
+
+.line .third-img{
+    position: absolute;
+    top: 495px;
+    left: 1000px;
+}
+
+.line .three{
+    width: 220px;
+}
+
+.third-img h3{
+    font-size: 24px;
+    font-weight: 330%;
+    margin-left: 55px;
+    color: rgb(102, 101, 101);
+}
+
+.third-img p{
+    font-size: 20px;
+    width: 83%;
+    color: rgb(102, 101, 101);
+    margin-top: 2%;
+    margin-left: -80px;
+}
+
+.line .fourth-img{
+    position: absolute;
+    top: 495px;
+    left: 200px;
+}
+
+.line .four{
+    width: 300px;
+}
+
+.fourth-img h3{
+    color: white;
+    font-size:36px;
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+
+.fourth-img p{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.sec2 h4{
+    color: rgb(75, 74, 74);
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 200px;
+}
+
+.sec2 p{
+    font-size: 15px;
+    width: 30%;
+    color: rgb(102, 101, 101);
+    margin-top: 2%;
+    margin-left: 200px;
+}
+
+.div-text{
+    position: absolute;
+    top: 2400px;
+    left: 450px;
+}
+
+footer{
+    width: 100%;
+    height:800px;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+
+.sec3{
+    background-image: url("Task\ Design/Group 1131.png");
+    width: 100%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: 115% 130%;
+    background-position: center;
+    position: relative;
+    bottom: -17%;
+    display: flex;
+    justify-content: space-between;
+    border:none;
+}
+
+.img2{
+    position: absolute;
+    top: -30px;
+    left: 650px;
+}
+
+.img2 img{
+    width: 800px;
+}
+
+.download{
+    display: flex;
+}
+
+.app-store{
+    display: flex;
+    border:none;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 2980px;
+    left: 100px;
+}
+
+.app-store img{
+    margin-right: 10px;
+}
+
+.app-store .text{
+    margin-left: 10px;
+}
+
+.app-store .text p{
+    font-size: small;
+    color: gray;
+}
+
+.app-store .text h5{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 4%;
+    color: gray;
+}
+
+.play-store{
+    display: flex;
+    border:none;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 2980px;
+    left: 300px;
+}
+
+.play-store img{
+    margin-right: 10px;
+}
+
+.play-store .text2{
+    margin-left: 10px;
+}
+
+.play-store .text2 p{
+    font-size: small;
+    color: gray;
+}
+
+.play-store .text2 h5{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 4%;
+    color: gray;
+}
+
+.icons{
+display: flex;
+position: absolute;
+top: 3060px;
+left: 90px;
+}
+
+.icons div{
+margin: 10px 10px 10px 10px;
+}
+
+.list{
+    position: absolute;
+    top: 3150px;
+    left: 100px;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.list li{
+    margin:0px 85px 0px 0px
+}
+
+
+
+
+
+
+
